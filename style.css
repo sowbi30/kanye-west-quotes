@@ -1,0 +1,27 @@
+.container-fluid{
+    width: 600px;
+}
+body{
+    background-image: url("https://www.meme-arsenal.com/memes/4ad3baeb13c49dc4ac41f05b499aecec.jpg");
+    background-size: cover;
+    
+    display: block;
+    flex-wrap: wrap;
+}
+h1{
+    display: inline-block;
+    padding: 10px;
+    margin:10px;
+    align-content: center;
+    justify-content: center;
+}
+@media (max-width: 600px) {
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  @media (min-width: 601px) {
+
+  }
